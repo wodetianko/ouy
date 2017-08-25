@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+ </head>
+ <div>
+  <style>
+  *{
+  margin:0 ;
+  padding:0;
+  }
+  .road{
+  overflow:hidden;
+  border-left:3px solid black;
+border-right:3px solid black;
+display:-webkit-box;
+  width:50%;
+  height:100vh;
+
+
+}
+.c1{
+position:absolute;
+left:20%;
+top:0px;
+}
+.track {
+		-webkit-box-flex:1;
+		height: 200%;
+		margin-top:-100%;
+		border-right: 3px dashed white;
+	}
+
+	.last {
+		border-right: 0;
+		</style>
+ <body>
+ </head>
+  <div class="road c1">
+  <div class="track"> </div>
+		<div class="track"> </div>
+		<div class="track"> </div>
+		<div class="track"> </div>
+
+		<div class="track last"> </div>
+ </body>
+</html>
